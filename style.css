@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Fustat:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+.zekr {
+    position: fixed;
+    background-color: #ebe5e5;
+    padding: 5px 10px;
+    border: 3px solid var(--main_color);
+    border-radius: 30px;
+    font-size: 20px;
+font-weight: 900;
+    top: 20px;
+    left: 20px;
+    /* color: var(--main_color); */
+    color: rgb(49, 49, 49);
+    animation: showZekr 1s ease-out;
+    font-family: "Fustat";
+    font-family: "Fustat" !important;
+    font-family: "Almarai";
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.589);
+    z-index: 54654654564;
+    user-select: none;
+}
+
+.zekr.dark {
+    color: whitesmoke;
+    background-color: #363636 !important;
+  /*  box-shadow: inset 0 0 10px var(--main_color);*/
+}
+
+.zekr.red {
+    --main_color: #e84118;
+    background-color: #e0ada0;
+
+    transition: 0.5s !important;
+
+}
+
+.zekr.green {
+    --main_color: #4cd137;
+    background-color: #b0ceac;
+    transition: 0.5s !important;
+
+}
+
+.zekr.violet {
+    --main_color: #6b75ff;
+    background-color: #c6caff;
+    transition: 0.5s !important;
+
+}
+
+.zekr.orange {
+    --main_color: #ff9900;
+    background-color: #fce6c5;
+    transition: 0.5s !important;
+
+}
+
+.zekr.blue {
+    --main_color: #2e90ff;
+    background-color: #bbd8fa;
+    transition: 0.5s !important;
+
+}
+
+.fadeOut {
+    left: -500px;
+    animation: hideZekr 1s ease-in;
+}
+
+
+@keyframes showZekr {
+    0% {
+        left: -150px;
+    }
+
+    70% {
+        left: 25px;
+    }
+
+    100% {
+        left: 20px;
+    }
+}
+
+@keyframes hideZekr {
+    0% {
+        left: 20px;
+    }
+
+
+
+    100% {
+        left: -500px;
+    }
+}
