@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Azkar",
     "version": "2.0",
-    "description": "Show azkar every a couple of seconds",
+    "description": "Show a zikr every a couple of seconds",
     "content_scripts": [
         {
             "matches": [
@@ -16,7 +16,7 @@
             ]
         }
     ],
-    "options_page": "html.html",
+    "options_page": "index.html",
     "icons": {
         "16": "./ico.png",
         "32": "./ico.png",
